@@ -22,7 +22,7 @@ we only have a couple other things to worry about.
    wich basicly means that it will by unsupported with no fixing it. So if you want wifi
    you will probably have to use an external wifi dongal though the type-C port.
  
-2. Type-C an SD card reader-
+2. Type-C and SD card reader-
    Kinda nessecary to do anything. Shouldnt be too hard to get working.
  
  
