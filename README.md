@@ -13,9 +13,10 @@ remotely usable in the Steam Deck. My first and foremost concern is getting the 
 to boot using successfully while using the built in screen. This should be (hopefully) 
 possible by spoofing the custom APU to an Intel iGPU. If by some miracle this works, the
 next issue is graphics accelleration. Hopefully, this issue can be fixed with what the
-guys at [WhateverRed](https://github.com/NootInc/WhateverRed) are working on. In fact, their project is why I am limiting the MacOS
-versions to Catalina and Big Sur. If (and big if) we can get these two issues sorted out,
-we only have a couple other things to worry about.
+guys at [WhateverRed](https://github.com/NootInc/WhateverRed) are working on. In fact, 
+their project is why I am limiting the MacOS versions to Catalina and Big Sur. 
+If (and big if) we can get these two issues sorted out, we only have a couple other 
+things to worry about.
 
 1. Wifi/Bluetooth-
    Unfortunelty, it looks like the wifi chipset that the Steam Deck uses is from Realtek
