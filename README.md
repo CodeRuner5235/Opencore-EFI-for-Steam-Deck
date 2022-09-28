@@ -1,5 +1,5 @@
 # Opencore-EFI-for-Steam-Deck
-This project is for using Opencore to MacOS on the Valve Steam Deck.
+This project is for using [Opencore](https://dortania.github.io/OpenCore-Install-Guide/) to MacOS on the Valve Steam Deck.
 _________________________________________________________________________________________
 The MacOS versions that I will be targeting are Catalina (10.15) and Big Sur (11)
 
@@ -13,7 +13,7 @@ remotely usable in the Steam Deck. My first and foremost concern is getting the 
 to boot using successfully while using the built in screen. This should be (hopefully) 
 possible by spoofing the custom APU to an Intel iGPU. If by some miracle this works, the
 next issue is graphics accelleration. Hopefully, this issue can be fixed with what the
-guys at WhateverRed are working on. In fact, their project is why I am limiting the MacOS
+guys at [WhateverRed](https://github.com/NootInc/WhateverRed) are working on. In fact, their project is why I am limiting the MacOS
 versions to Catalina and Big Sur. If (and big if) we can get these two issues sorted out,
 we only have a couple other things to worry about.
 
@@ -27,7 +27,7 @@ we only have a couple other things to worry about.
  
  
 3. Touch screen/mouse pads- 
-   Maybe some ACPI patching will get this to work??
+   Hoping that the touch screen uses Multitouch HID and we can use a VoodooI2C plugin
 
 4. Audio
 
