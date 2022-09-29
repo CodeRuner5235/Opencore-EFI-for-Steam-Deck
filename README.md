@@ -1,5 +1,7 @@
 # Opencore-EFI-for-Steam-Deck
+
 <meta name="google-site-verification" content="11AukatO-nbJh1Q0qSwZ1RWDI-wEBoNEG0_eORJwv3E" />
+
 This project is for using [Opencore](https://dortania.github.io/OpenCore-Install-Guide/) to run MacOS on the Valve Steam Deck.
 
 The MacOS versions that I will be targeting are Catalina (10.15) and Big Sur (11)
