@@ -1,7 +1,4 @@
 # Opencore-EFI-for-Steam-Deck
-<head>
-      <meta name="google-site-verification" content="11AukatO-nbJh1Q0qSwZ1RWDI-wEBoNEG0_eORJwv3E" />
-</head>
 
 This project is for using [Opencore](https://dortania.github.io/OpenCore-Install-Guide/) to run MacOS on the Valve Steam Deck.
 
