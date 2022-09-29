@@ -6,7 +6,7 @@ The MacOS versions that I will be targeting are Catalina (10.15) and Big Sur (11
 The project can be found [here](https://github.com/CodeRuner5235/Opencore-EFI-for-Steam-Deck/)
 
 My reasoning here is that Apple changed a lot of things between Big Sur and Monterey so
-I will be focusing on these two versions for now. I will deninetly try to get Montery
+I will be focusing on these two versions for now. I will deninetly try to get Monterey
 and up running in the future. 
 
 As of right now, there are many, MANY, issues the must be overcome before MacOS is even
