@@ -29,13 +29,13 @@ things to worry about.
  
  
 3. Touch screen/mouse pads- 
-   Hoping that the touch screen uses Multitouch HID and we can use a VoodooI2C plugin
+   Hoping that the touch screen uses Multitouch HID and we can use a VoodooI2C plugin.
 
 4. Audio
 
 5. Controller controls- 
    I am hoping this can be fixed by installing steam and using its mapping. If not, 
-   ACPI patching will probably be needed...
+   ACPI patching will probably be needed.
 
 6. Everything else-
    Things like the webcam, microphone, etc...
