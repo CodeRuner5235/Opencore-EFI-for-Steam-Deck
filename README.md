@@ -22,7 +22,7 @@ things to worry about.
 1. Wifi/Bluetooth-
    Unfortunelty, it looks like the wifi chipset that the Steam Deck uses is from Realtek
    wich basicly means that it will by unsupported with no fixing it. So if you want wifi
-   you will probably have to use an external wifi dongal though the type-C port.
+   you will probably have to use an external wifi dongal or wired connection though the type-C port.
  
 2. Type-C and SD card reader-
    Kinda nessecary to do anything. Shouldnt be too hard to get working.
