@@ -38,7 +38,7 @@ things to worry about.
    ACPI patching will probably be needed.
 
 6. Everything else-
-   Things like the webcam, microphone, etc...
+   Things like the brightness, microphone, etc...
 
 I will have the first beta EFI no later than oct 10th.
 
