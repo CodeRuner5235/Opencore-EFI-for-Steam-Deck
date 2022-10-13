@@ -1,6 +1,7 @@
 # Opencore-EFI-for-Steam-Deck
 
 This project is for using [Opencore](https://dortania.github.io/OpenCore-Install-Guide/) to run MacOS on the Valve Steam Deck.
+This is not to give you a free EFI, but to help you built your own.
 
 The MacOS versions that I will be targeting are Catalina (10.15) and Big Sur (11).
 The project can be found [here](https://github.com/CodeRuner5235/Opencore-EFI-for-Steam-Deck/)
@@ -40,10 +41,25 @@ things to worry about.
 6. Everything else-
    Things like the brightness, microphone, etc...
 
-Make sure to use GenSMBios to get your own smbios before using!
+#IT IS NOT RECOMENDED TO USE THIS EFI AS IS.
+#IT IS HERE TO HELP YOU BUILD YOUR OWN.
 
-Any and all help is welcome form people who want 
-to test, to people who know how to use Opencore.
+This can be accomplished by following the dortania guide as linked below
+and changing these things.
+
+1. you need to use SSDT-Time to build an EC for a laptop and add it
+   to your APCI folder
+   
+2. You need SSDT-CPUR in you APCI folder
+
+3. You will need the VooDooI2C.kext and VooDooI2CHID.kext
+
+4. You will need USBToolbox.kext and to make a USBMap.kext as detailed
+   in dortania's opencore gathering files USB section
+   
+5. You will also need genericUSBXHCI.kext
+
+6. Set ProvideConsoleGOP to FALSE if you have a garbled screen
 
 If you have anything you want to add or any ideas, discussions
 are always open!
