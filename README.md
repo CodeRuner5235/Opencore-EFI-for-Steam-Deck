@@ -61,6 +61,8 @@ and changing these things.
 
 6. Set ProvideConsoleGOP to FALSE if you have a garbled screen
 
+I recomment using the MacBookPro16,3 or MacBookPro16,4 smbios
+
 If you have anything you want to add or any ideas, discussions
 are always open!
 
