@@ -40,7 +40,7 @@ things to worry about.
 6. Everything else-
    Things like the brightness, microphone, etc...
 
-I will have the first beta EFI no later than oct 10th.
+Make sure to use GenSMBios to get your own smbios before using!
 
 Any and all help is welcome form people who want 
 to test, to people who know how to use Opencore.
