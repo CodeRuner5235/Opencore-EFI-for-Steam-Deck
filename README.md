@@ -20,31 +20,33 @@ their project is why I am limiting the MacOS versions to Catalina and Big Sur.
 If (and big if) we can get these two issues sorted out, we only have a couple other 
 things to worry about.
 
-1. Wifi/Bluetooth-
-   Unfortunelty, it looks like the wifi chipset that the Steam Deck uses is from Realtek
-   wich basicly means that it will by unsupported with no fixing it. So if you want wifi
-   you will probably have to use an external wifi dongal or wired connection though the type-C port.
- 
-2. Type-C and SD card reader-
-   Kinda nessecary to do anything. Shouldnt be too hard to get working.
- 
- 
-3. Touch screen/mouse pads- 
-   Hoping that the touch screen uses Multitouch HID and we can use a VoodooI2C plugin.
+What works-
 
-4. Audio
+1. Battery readout
 
-5. Controller controls- 
-   I am hoping this can be fixed by installing steam and using its mapping. If not, 
-   ACPI patching will probably be needed.
+2. Controller as keyboard (R2 is left click, L2 is right click, the right mouse pad is the mouse)
 
-6. Everything else-
-   Things like the brightness, microphone, etc...
+3. The usb type-C port
+
+and thats basicly it.
+
+What doesnt work-
+
+1. Acceleration
+
+2. Screen orientation (likeley to be fixed when we get acceleration working)
+
+3. Wifi, bluetooth (may never work)
+
+4. Touchscreen
+
+5. SD card reader
+
 
 #IT IS NOT RECOMENDED TO USE THIS EFI AS IS.
 #IT IS HERE TO HELP YOU BUILD YOUR OWN.
 
-This can be accomplished by following the dortania guide as linked below
+This can be accomplished by following the dortania guide for Rzyen as linked below
 and changing these things.
 
 1. you need to use SSDT-Time to build an EC for a laptop and add it
@@ -59,9 +61,9 @@ and changing these things.
    
 5. You will also need genericUSBXHCI.kext
 
-6. Set ProvideConsoleGOP to FALSE if you have a garbled screen
+6. Set UEFI-> Output-> ProvideConsoleGOP to FALSE and Resolution to 1024x768 if you have a garbled screen
 
-I recomment using the MacBookPro16,3 or MacBookPro16,4 smbios
+I recomment using the MacBookPro16,3 smbios.
 
 If you have anything you want to add or any ideas, discussions
 are always open!
