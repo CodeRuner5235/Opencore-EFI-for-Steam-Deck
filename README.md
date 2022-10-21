@@ -38,7 +38,7 @@ What doesnt work-
 
 3. Wifi, bluetooth (may never work)
 
-4. Touchscreen
+4. Touch screen
 
 5. SD card reader
 
