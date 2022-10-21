@@ -65,6 +65,8 @@ and changing these things.
 
 I recomment using the MacBookPro16,3 smbios.
 
+**EDIT TRYING EDID PATCH TO FIX SCREEN ORIENTATION**
+
 If you have anything you want to add or any ideas, discussions
 are always open!
 
