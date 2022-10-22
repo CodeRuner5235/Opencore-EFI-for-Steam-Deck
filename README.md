@@ -70,8 +70,6 @@ I recomment using the MacBookPro16,3 smbios.
 If you have anything you want to add or any ideas, discussions
 are always open!
 
-Laslty, no judging my webpage work. I know its not the best looking.
-
 Opencore- https://dortania.github.io/OpenCore-Install-Guide/
 
 WhateverRed- https://github.com/NootInc/WhateverRed
