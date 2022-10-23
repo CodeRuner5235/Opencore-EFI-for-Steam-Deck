@@ -65,7 +65,11 @@ and changing these things.
 
 I recomment using the MacBookPro16,3 smbios.
 
-**EDIT: TRYING EDID PATCH TO FIX SCREEN ORIENTATION**
+Things Im currently working on
+
+1. USB issues that prevent booting on BigSur and up
+
+2. Screen rotation
 
 If you have anything you want to add or any ideas, discussions
 are always open!
