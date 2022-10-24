@@ -65,6 +65,9 @@ and changing these things.
 
 I recomment using the MacBookPro16,3 smbios.
 
+Currently only Catalina and earlier are recommended, as for some reason BigSur and up
+ignore my USB maps and fail to boot with "Still waiting on root device"
+
 Things Im currently working on
 
 1. USB issues that prevent booting on BigSur and up
